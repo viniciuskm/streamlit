@@ -7,7 +7,6 @@ import os
 import locale
 import gdown
 
-
 # URL pública do Google Drive
 url = "https://drive.google.com/uc?id=1m1SnhX6yQ6PNXQwZ-MaR9U4H-1ix-Nf2"
 output = "dataprep_model_v2.pkl"
@@ -176,6 +175,10 @@ with tab3:
         st.write("Nenhum resultado disponível. Clique em 'Aplicar Filtros'.")
 
 
+def formatar_moeda(valor):
+    return f"R$ {valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
 
 with tab4:
     if st.session_state["previsao_precos_clicado"]:
@@ -184,7 +187,7 @@ with tab4:
         df_predict = preparar_dados_para_previsao(latitude, longitude, ano_construcao, fracao_ideal, area_construida, area_terreno)
         if df_predict is not None:
             valor_predito = locale.currency(df_predict['vlr_predito'].values[0], grouping=True)
-            st.subheader(f"Valor Predito: {valor_predito}")
+            st.subheader(f"Valor Predito: {formatar_moeda(valor_predito)}")
             st.write("Dados utilizados no modelo de previsão:")
             st.write(df_predict)
         else:
