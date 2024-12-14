@@ -1,0 +1,1 @@
+arquivo utilizado e estrutura de modelagem desse modelo 04_functiontoprepdata.py

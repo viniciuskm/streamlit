@@ -1,0 +1,54 @@
+Arquivo;Variável;Nome da variável;Descrição da variável;Fonte;Tipo;Tamanho;Sigilo
+GEOINFO_ED_CENSOESCOLAR_2023;ID;Identificador;Número de identificação do estabelecimento georreferenciado por SMUL/Deinfo;SMUL/Geoinfo;TEXTO;08;0
+GEOINFO_ED_CENSOESCOLAR_2023;COORD_E;Coordenada Leste;Coordenada Leste em metro (UTM/SIRGAS2000);SMUL/Geoinfo;TEXTO;9;0
+GEOINFO_ED_CENSOESCOLAR_2023;COORD_N;Coordenada Norte;Coordenada Norte em metro (UTM/SIRGAS2000);SMUL/Geoinfo;TEXTO;10;0
+GEOINFO_ED_CENSOESCOLAR_2023;SETCENS;Setor censitário;Setor censitário conforme IBGE;IBGE;TEXTO;15;0
+GEOINFO_ED_CENSOESCOLAR_2023;AREAP;Área de ponderação;Área de ponderação (agrupamento de setores censitários) conforme IBGE;IBGE;TEXTO;13;0
+GEOINFO_ED_CENSOESCOLAR_2023;CODDIST;Código do distrito conforme IBGE;Código do Distrito Municipal conforme IBGE;IBGE;TEXTO;09;0
+GEOINFO_ED_CENSOESCOLAR_2023;DISTRITO;Distrito municipal;Nome do Distrito Municipal;SMUL/Geoinfo;TEXTO;18;0
+GEOINFO_ED_CENSOESCOLAR_2023;CODSUBPREF;Código da Subprefeitura;Código de cada uma das 31 Subprefeituras (2003 a 2012);SMUL/Geoinfo;TEXTO;02;0
+GEOINFO_ED_CENSOESCOLAR_2023;SUBPREF;Subprefeitura;Nome da Subprefeitura;SMUL/Geoinfo;TEXTO;25;0
+GEOINFO_ED_CENSOESCOLAR_2023;REGIAO5;Região conforme divisão do Município em 5 áreas;Região conforme divisão do Município em 5 áreas;SMUL/Geoinfo;TEXTO;06;0
+GEOINFO_ED_CENSOESCOLAR_2023;REGIAO8;Região conforme divisão do Município em 8 áreas;Região conforme divisão do Município em 8 áreas;SMUL/Geoinfo;TEXTO;07;0
+GEOINFO_ED_CENSOESCOLAR_2023;NOMESC;Nome da escola;Denominação oficial do estabelecimento escolar;"Censo Escolar MEC/Inep; SME/CIEDU.";TEXTO;60;0
+GEOINFO_ED_CENSOESCOLAR_2023;ENDESC;Nome do logradouro (endereço da escola);Nome do logradouro onde se localiza o estabelecimento;"Censo Escolar MEC/Inep; SME/CIEDU.";TEXTO;50;0
+GEOINFO_ED_CENSOESCOLAR_2023;NUMESC;Número do lote em que se localiza a escola;Número do lote em que se localiza a escola;"Censo Escolar MEC/Inep; SME/CIEDU.";TEXTO;06;0
+GEOINFO_ED_CENSOESCOLAR_2023;COMPLEND;Complemento do endereço;Complemento do endereço;"Censo Escolar MEC/Inep; SME/CIEDU.";TEXTO;13;0
+GEOINFO_ED_CENSOESCOLAR_2023;BAIESC;Bairro;Bairro de localização do estabelecimento;"Censo Escolar MEC/Inep; SME/CIEDU.";TEXTO;52;0
+GEOINFO_ED_CENSOESCOLAR_2023;CODCEP;Código do CEP;Número do Código de Endereçamento Postal com 5 dígitos;"Censo Escolar MEC/Inep; SME/CIEDU.";TEXTO;05;0
+GEOINFO_ED_CENSOESCOLAR_2023;COMPCEP;Complemento do CEP;Complemento do Código de Endereçamento Postal;"Censo Escolar MEC/Inep; SME/CIEDU.";TEXTO;03;0
+GEOINFO_ED_CENSOESCOLAR_2023;CEPPOSTAL;Código completo do CEP;Código de endereçamento postal com oito dígitos;"Censo Escolar MEC/Inep; SME/CIEDU.";TEXTO;10;0
+GEOINFO_ED_CENSOESCOLAR_2023;FONE1;Número do telefone;Número do telefone;"Censo Escolar MEC/Inep; SME/CIEDU.";TEXTO;8;0
+GEOINFO_ED_CENSOESCOLAR_2023;FONE2;Número do telefone;Número do telefone;"Censo Escolar MEC/Inep; SME/CIEDU.";TEXTO;8;0
+GEOINFO_ED_CENSOESCOLAR_2023;ED_DIRETOR;Código de diretoria de ensino;Diretoria de ensino;"Censo Escolar MEC/Inep; SME/CIEDU.";CATEGORIA;5;0
+GEOINFO_ED_CENSOESCOLAR_2023;DIRETORIA;Diretoria estadual de ensino;Diretoria estadual de ensino;"Censo Escolar MEC/Inep; SME/CIEDU.";TEXTO;12;0
+GEOINFO_ED_CENSOESCOLAR_2023;DRE;Diretoria Regional de Educação;Diretoria Regional de Educação do Município;SME/CIEDU.;CATEGORIA;12;0
+GEOINFO_ED_CENSOESCOLAR_2023;ED_ZONA;Código de zona;Código da zona do município (urbana ou rural);"Censo Escolar MEC/Inep; SME/CIEDU.";CATEGORIA;02;0
+GEOINFO_ED_CENSOESCOLAR_2023;ZONA;Zona conforme MEC;Zona do município (urbana ou rural), em que se localiza o estabelecimento, conforme classificação do MEC;"Censo Escolar MEC/Inep; SME/CIEDU.";CATEGORIA;06;0
+GEOINFO_ED_CENSOESCOLAR_2023;CODESCMEC;Código de escola com oito dígitos ;Código de identificação do estabelecimento no MEC/Inep com oito dígitos;"Censo Escolar MEC/Inep; SME/CIEDU.";TEXTO;08;0
+GEOINFO_ED_CENSOESCOLAR_2023;COD_EOL;Código EOL;Código do Sistema Escola On-line;SME/CIEDU.;TEXTO;08;0
+GEOINFO_ED_CENSOESCOLAR_2023;ED_DEPADM;Código da dependência administrativa;Rede de ensino, conforme tipo de administração;"Censo Escolar MEC/Inep; SME/CIEDU.";CATEGORIA;02;0
+GEOINFO_ED_CENSOESCOLAR_2023;DEPADM;Dependência administrativa;Rede de ensino, conforme tipo de administração;"Censo Escolar MEC/Inep; SME/CIEDU.";CATEGORIA;12;0
+GEOINFO_ED_CENSOESCOLAR_2023;ED_TIPO;Código do tipo de escola;Tipo de estabelecimento;"Censo Escolar MEC/Inep; SME/CIEDU.";CATEGORIA;03;0
+GEOINFO_ED_CENSOESCOLAR_2023;TIPO;Tipo de escola;Tipo de estabelecimento;"Censo Escolar MEC/Inep; SME/CIEDU.";CATEGORIA;22;0
+GEOINFO_ED_CENSOESCOLAR_2023;ALCRECHE;Alunos de creche;Número de matrículas iniciais em creche (educação infantil);"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;ALPRE;Alunos de pré-escola;Número de matrículas iniciais em pré-escola (educação infantil);"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;ALEE;Alunos de educação especial;Número de matrículas iniciais em educação especial (ensino fundamental);"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;AL9INI;Alunos de ensino fundamental 9 anos iniciais;Número de matrículas iniciais no ensino fundamental de 9 anos iniciais;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;AL9FIN;Alunos de ensino fundamental 9 anos finais;Número de matrículas iniciais no ensino fundamental de 9 anos finais;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;ALEM;Alunos de ensino médio;Número de matrículas iniciais no ensino médio;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;ALPROF;Alunos de educação profissional;Número de matrículas iniciais em educação profissional nível técnico;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;ALEJA1A4;Alunos de EJA 1ª a 4ª série;Número de matrículas iniciais em educação de jovens e adultos de 1ª a 4ª série do ensino fundamental;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;ALEJA5A8;Alunos de EJA 5ª a 8ª série;Número de matrículas iniciais em educação de jovens e adultos de 5ª a 8ª série do ensino fundamental;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;ALEJAEM;Alunos de EJA ensino médio;Número de matrículas iniciais em educação de jovens e adultos de ensino médio;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;AL_TOTAL;Total de alunos;Número total de matrículas iniciais no estabelecimento escolar;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;CLCRECHE;Classes de creche;Número de turmas de creche (educação infantil);"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;CLPRE;Classes de pré-escola;Número de turmas de pré-escola (educação infantil);"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;CLEE;Classes de educação especial;Número de turmas de educação especial (ensino fundamental);"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;CL9INI;Classes de ensino fundamental de 9 anos iniciais;Número de turmas de ensino fundamental de 9 anos iniciais;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;CL9FIN;Classes de ensino fundamental de 9 anos finais;Número de turmas de ensino fundamental de 9 anos finais;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;CLEM;Classes de ensino médio;Número de turmas do ensino médio;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;CLEJA1A4;Classes de EJA 1ª a 4ª série;Número de turmas de educação de jovens e adultos de 1ª a 4ª série do ensino fundamental;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;CLEJA5A8;Classes de EJA 5ª a 8ª série;Número de turmas de educação de jovens e adultos de 5ª a 8ª série do ensino fundamental;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;CLEJAEM;Classes de EJA ensino médio;Número de turmas de educação de jovens e adultos do ensino médio;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
+GEOINFO_ED_CENSOESCOLAR_2023;CLPROF;Classes de educação profissional;Número de turmas de educação profissional nível técnico;"Censo Escolar MEC/Inep; SME/CIEDU.";VALOR;04;0
