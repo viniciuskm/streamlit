@@ -4,7 +4,7 @@ import geopandas as gpd
 from shapely.geometry import Point
 import sys
 import os
-import locale
+# import locale
 import gdown
 
 # URL pública do Google Drive
@@ -27,7 +27,7 @@ if not os.path.exists(output):
 
 
 # Configurar para formato monetário brasileiro
-locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
+# locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 
 # Adicionar o diretório raiz do projeto ao sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -186,7 +186,8 @@ with tab4:
         st.write('Prevendo preço...')
         df_predict = preparar_dados_para_previsao(latitude, longitude, ano_construcao, fracao_ideal, area_construida, area_terreno)
         if df_predict is not None:
-            valor_predito = locale.currency(df_predict['vlr_predito'].values[0], grouping=True)
+            # valor_predito = locale.currency(df_predict['vlr_predito'].values[0], grouping=True)
+            valor_predito = df_predict['vlr_predito'].values[0]
             st.subheader(f"Valor Predito: {formatar_moeda(valor_predito)}")
             st.write("Dados utilizados no modelo de previsão:")
             st.write(df_predict)
