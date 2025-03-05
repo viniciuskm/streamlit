@@ -319,8 +319,8 @@ def  main_prep_variables(df_imoveis,
 
     
     
-    df_imoveis2 = adicionar_variaveis_macroeconomicas(data_transacao, df_imoveis)
-    # df_imoveis2 = df_imoveis.copy(deep=True)
+    # df_imoveis2 = adicionar_variaveis_macroeconomicas(data_transacao, df_imoveis)
+    df_imoveis2 = df_imoveis.copy(deep=True)
     
     
     # Supondo que seu DataFrame inicial seja df_imoveis e contém as colunas necessárias como 'lat', 'lon', etc.
@@ -378,12 +378,12 @@ def  main_prep_variables(df_imoveis,
 
 
     # df_imoveis_calculado = df_resultado
-    # df_imoveis_calculado['indicefipezap'] = 264.470658673279
-    # df_imoveis_calculado['cambio_media_6m'] = 5.5749
-    # df_imoveis_calculado['selic_media_6m'] = 0.1175
-    # df_imoveis_calculado['ipca_soma_12m'] = 0.0434
-    # df_imoveis_calculado['igpm_soma_12m'] = 0.0444
-    # df_imoveis_calculado['inpc_soma_12m'] = 0.0402	
+    df_imoveis_calculado['indicefipezap'] = 264.470658673279
+    df_imoveis_calculado['cambio_media_6m'] = 5.5749/100
+    df_imoveis_calculado['selic_media_6m'] = 0.1175
+    df_imoveis_calculado['ipca_soma_12m'] = 0.0434
+    df_imoveis_calculado['igpm_soma_12m'] = 0.0644
+    df_imoveis_calculado['inpc_soma_12m'] = 0.0467
 
 
     # =============================================================================
